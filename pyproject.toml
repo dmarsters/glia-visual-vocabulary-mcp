@@ -9,9 +9,9 @@ packages = ["."]
 name = "glia-visual-vocabulary-mcp"
 version = "1.0.0"
 description = "MCP server providing glia cell visual vocabulary with 5D morphospace, RK4 trajectories, activation dynamics, and frame-sequence animation output"
-authors = [{name = "Lushy", email = "contact@lushy.ai"}]
+authors = [{name = "Lushy", email = "dal@lushy.app"}]
 
-dependencies = []
+dependencies = ["numpy"]
 
 [project.scripts]
 glia-visual-vocabulary = "glia_visual_vocabulary_mcp:mcp"
